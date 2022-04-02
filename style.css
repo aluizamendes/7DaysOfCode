@@ -1,0 +1,61 @@
+/* font-family: 'Inter', sans-serif; */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-red: #8E2424;
+	--red-surfaces: #C3191908;
+	--gray-surfaces: #F9FAFB;
+	--typography-light-gray: #98A2B3;
+	--gray-borders: #EAECF0;
+	--typography-gray: #667085;
+	--typography-headings: #101828;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Inter', sans-serif;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 5%;
+}
+
+nav .nav-links a {
+	font-size: 1.6rem;
+	color: var(--typography-gray);
+	text-decoration: none;
+	margin-right: 3.2rem;
+}
+
+.right-links #enter {
+	font-size: 1.6rem;
+	color: var(--typography-gray);
+	text-decoration: none;
+	margin-right: 2rem;
+}
+
+#signup {
+	background-color: var(--primary-red);
+	border: none;
+	padding: 1rem 2rem;
+	border-radius: 8px;
+}
+
+#signup a {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.6rem;
+	text-decoration: none;
+	color: #fff;
+}
