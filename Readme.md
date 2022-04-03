@@ -8,10 +8,10 @@
 * Utilizar variáveis
 
 ## Progresso
--[x] Dia 1: Navbar
--[x] Dia 2: Cabeçalho
--[] Dia 3: Seção de métricas e resultados
--[] Dia 4: Seção de vagas
--[] Dia 5:
--[] Dia 6:
--[] Dia 7:
+- [X] Dia 1: Navbar
+- [X] Dia 2: Cabeçalho
+- [ ] Dia 3: Seção de métricas e resultados
+- [ ] Dia 4: Seção de vagas
+- [ ] Dia 5:
+- [ ] Dia 6:
+- [ ] Dia 7:
