@@ -83,3 +83,45 @@ header p {
 	color: var(--primary-red);
 	font-size: 1.6rem;
 }
+
+.metricas_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 4%;
+	padding-bottom: 96px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.metricas_container-item {
+	max-width: 300px;
+	min-height: 200px;
+	padding: 12px;
+	transition: all 0.2s ease-in;
+}
+
+.metricas_container-item:hover {
+	background: var(--red-surfaces);
+	border-radius: 8px;
+}
+
+.metricas_container-item h3 {
+	font-size: 6rem;
+	font-weight: 600;
+	color: var(--primary-red);
+}
+
+.metricas_container-item_title {
+	font-size: 1.8rem;
+	font-weight: 500;
+	color: var(--typography-headings);
+	margin: 16px 0;
+}
+
+.paragrafo-item {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: var(--typography-gray);
+}
