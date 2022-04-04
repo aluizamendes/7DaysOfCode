@@ -6,12 +6,13 @@
 * Praticar o uso de flexbox e grids
 * Praticar alinhamento de blocos
 * Utilizar variáveis
+* Responsividade
 
 ## Progresso
 - [X] Dia 1: Navbar
 - [X] Dia 2: Cabeçalho
-- [ ] Dia 3: Seção de métricas e resultados
-- [ ] Dia 4: Seção de vagas
-- [ ] Dia 5:
-- [ ] Dia 6:
-- [ ] Dia 7:
+- [X] Dia 3: Seção de métricas e resultados
+- [X] Dia 4: Seção de vagas
+- [ ] Dia 5: Vagas da página
+- [ ] Dia 6: Depoimentos
+- [ ] Dia 7: Rodapé
