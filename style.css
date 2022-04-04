@@ -87,7 +87,6 @@ header p {
 .metricas_container {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
 	align-items: flex-start;
 	gap: 1%;
 	padding-bottom: 96px;
@@ -96,8 +95,8 @@ header p {
 }
 
 .metricas_container-item {
-	width: 320px;
-	min-height: 200px;
+	min-height: 220px;
+	flex-basis: 100%;
 	padding: 12px;
 	transition: all 0.2s ease-in;
 }
