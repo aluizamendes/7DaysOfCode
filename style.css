@@ -25,11 +25,19 @@ body {
 	width: 100%;
 }
 
+.container {
+	margin-inline: auto;
+	width: min(90%,150rem);
+}
+
 nav {
+	padding-top: 1.6rem;
+}
+
+nav .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem 5%;
 }
 
 nav .nav-links a {
@@ -84,14 +92,12 @@ header p {
 	font-size: 1.6rem;
 }
 
-.metricas_container {
+.metricas .container {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
 	gap: 1%;
 	padding-bottom: 96px;
-	padding-left: 5%;
-	padding-right: 5%;
 }
 
 .metricas_container-item {
@@ -125,11 +131,11 @@ header p {
 	color: var(--typography-gray);
 }
 
-.vagas_container {
+.vagas {
 	text-align: center;
 }
 
-.vagas_container span {
+.vagas span {
 	background: var(--red-surfaces);
 	border-radius: 16px;
 	padding: 8px 16px;
@@ -142,16 +148,15 @@ h2 {
 	color: var(--typography-headings);
 }
 
-.vagas_container p {
+.vagas p {
 	font-size: 2rem;
 	color: var(--typography-gray);
 	display: inline-block;
 	max-width: 80%;
 }
 
-.vagas_container img {
+.vagas img {
 	display: block;
 	margin: auto;
-	width: 90%;
-	padding: 5% 5%;
+	padding: 5% 0;
 }
