@@ -86,7 +86,7 @@ header p {
 	max-width: 80%;
 }
 
-.header-title-label {
+.header_title-label--no-bg {
 	font-weight: 600;
 	color: var(--primary-red);
 	font-size: 1.6rem;
@@ -131,27 +131,33 @@ header p {
 	color: var(--typography-gray);
 }
 
-.vagas {
+.header-title-label {
+	font-size: 1.4rem;
+	font-weight: 500;
 	text-align: center;
-}
-
-.vagas span {
+	color: var(--primary-red);
 	background: var(--red-surfaces);
 	border-radius: 16px;
 	padding: 8px 16px;
+	display: block;
+	margin: auto;
+	width: fit-content;
 }
 
 h2 {
 	font-size: 3.6rem;
 	font-weight: 600;
+	text-align: center;
 	margin: 16px 0 24px 0;
 	color: var(--typography-headings);
 }
 
 .vagas p {
 	font-size: 2rem;
+	text-align: center;
 	color: var(--typography-gray);
-	display: inline-block;
+	display: block;
+	margin: auto;
 	max-width: 80%;
 }
 
@@ -159,5 +165,41 @@ h2 {
 	width: 90%;
 	display: block;
 	margin: auto;
-	padding: 5% 0;
+	padding: 5% 0 0 0;
+}
+
+.vagas--wrapper {
+	padding: 0 20%;
+	margin: 6.4rem 0 0 0;
+}
+
+.vagas h4 {
+	font-size: 2rem;
+	font-weight: 500;
+	text-align: left;
+	margin: 0 0 3.2rem 0;
+}
+
+.vagas_card {
+	border: 1px solid var(--gray-borders);
+	border-radius: 16px;
+	padding: 24px 24px 28px 24px;
+	margin-bottom: 2.4rem;
+}
+
+.vagas_card p {
+	font-size: 1.8rem;
+	font-weight: 500;
+	text-align: left;
+	color: var(--typography-headings);
+	margin: 0 0 3.2rem 0;
+	display: block;
+}
+
+.vagas_card-infos {
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: var(--typography-gray);
+	display: inline-block;
+	margin-right: 2.4rem;
 }
