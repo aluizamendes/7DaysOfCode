@@ -203,3 +203,58 @@ h2 {
 	display: inline-block;
 	margin-right: 2.4rem;
 }
+
+/* Testimonial */
+
+.testimonials_card {
+	background: var(--red-surfaces);
+	border-radius: 16px;
+	padding: 6.4rem;
+	display: flex;
+	flex-direction: column;
+	row-gap: 3rem;
+	margin: 7.2rem 0 9.6rem 0;
+}
+
+.testimonials_card-label {
+	font-weight: 600;
+	text-align: center;
+	color: var(--primary-red);
+	font-size: 1.4rem;
+	display: block;
+
+}
+
+.testimonials_card p {
+	font-size: 3.6rem;
+	text-align: center;
+	font-weight: 500;
+	color: var(--typography-headings);
+	display: block;
+	margin:auto;
+	max-width: 80%;
+}
+
+.testimonials_card-author {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.testimonials_card-author img {
+	margin-bottom: 1.6rem;
+}
+
+.testimonials_card-name {
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: var(--typography-headings);
+	line-height: 2.4rem;
+}
+
+.testimonials_card-cargo {
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: var(--typography-gray);
+	line-height: 2rem;
+}
