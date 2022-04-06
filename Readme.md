@@ -13,6 +13,6 @@
 - [X] Dia 2: Cabeçalho
 - [X] Dia 3: Seção de métricas e resultados
 - [X] Dia 4: Seção de vagas
-- [ ] Dia 5: Vagas da página
-- [ ] Dia 6: Depoimentos
+- [X] Dia 5: Vagas da página
+- [X] Dia 6: Depoimentos
 - [ ] Dia 7: Rodapé
