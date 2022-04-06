@@ -92,7 +92,7 @@ header p {
 	font-size: 1.6rem;
 }
 
-.metricas .container {
+.metricas_container {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
@@ -257,4 +257,22 @@ h2 {
 	font-weight: 400;
 	color: var(--typography-gray);
 	line-height: 2rem;
+}
+
+/* Media queries */
+
+@media (max-width:830px) {
+	html {
+		font-size: 55%;
+	}
+
+	.metricas_container {
+		flex-direction: column;
+		row-gap: 2.4rem;
+	}
+
+	.metricas_container-item {
+		min-height: auto;
+		width: 100%;
+	}
 }
