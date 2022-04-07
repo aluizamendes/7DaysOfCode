@@ -329,6 +329,10 @@ form {
 		min-height: auto;
 		width: 100%;
 	}
+
+	.nav-links {
+		display: none;
+	}
 }
 
 @media (max-width:630px) {
