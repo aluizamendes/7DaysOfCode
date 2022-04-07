@@ -46,6 +46,11 @@ nav .nav-links a {
 	color: var(--typography-gray);
 	text-decoration: none;
 	margin-right: 3.2rem;
+	transition: all 0.4s ease;
+}
+
+nav .nav-links a:hover {
+	color: var(--primary-red);
 }
 
 .right-links #enter {
@@ -53,6 +58,11 @@ nav .nav-links a {
 	color: var(--typography-gray);
 	text-decoration: none;
 	margin-right: 2rem;
+	transition: all 0.4s ease;
+}
+
+.right-links #enter:hover {
+	color: var(--primary-red);
 }
 
 #signup {
