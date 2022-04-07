@@ -7,6 +7,7 @@
 
 :root {
 	--primary-red: #8E2424;
+	--primary-red-dark: #5d1414;
 	--red-surfaces: #C3191908;
 	--gray-surfaces: #F9FAFB;
 	--typography-light-gray: #98A2B3;
@@ -55,10 +56,15 @@ nav .nav-links a {
 }
 
 #signup {
-	background-color: var(--primary-red);
+	background: var(--primary-red);
 	border: none;
 	padding: 1rem 2rem;
 	border-radius: 8px;
+	transition: all 0.4s ease;
+}
+
+#signup:hover {
+	background: var(--primary-red-dark);
 }
 
 #signup a {
@@ -296,6 +302,11 @@ input#email:focus {
 	padding: 1.2rem 2rem;
 	border-radius: 8px;
 	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+#submit:hover {
+	background: var(--primary-red-dark);
 }
 
 form {
