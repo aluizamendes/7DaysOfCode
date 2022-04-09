@@ -178,7 +178,7 @@ h2 {
 }
 
 .vagas img {
-	width: 90%;
+	max-width: 90%;
 	display: block;
 	margin: auto;
 	padding: 5% 0 0 0;
@@ -354,10 +354,35 @@ form {
 	.nav-links {
 		display: none;
 	}
+
+	.vagas--wrapper {
+		padding: 0 10%;
+	}
 }
 
-@media (max-width:630px) {
+@media (max-width:600px) {
+	html {
+		font-size: 52%;
+	}
+
 	input#email {
-		width: 28rem;
+		width: 22rem;
+	}
+
+	nav div img {
+		width: 35%;
+	}
+
+	.vagas img {
+		max-width: 100%;
+	}
+
+	.vagas--wrapper {
+		padding: 0 0;
+	}
+
+	.testimonials_card p {
+		font-size: 3rem;
+		max-width: 100%;
 	}
 }
