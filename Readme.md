@@ -15,4 +15,7 @@
 - [X] Dia 4: Seção de vagas
 - [X] Dia 5: Vagas da página
 - [X] Dia 6: Depoimentos
-- [ ] Dia 7: Rodapé
+- [X] Dia 7: Footer
+
+## Considerações
+<p align="justify">Gostei muito de pôr em prática meus conhecimentos em HTML e CSS e poder desenvolver uma landing page bem completa! Pude usar elementos que não tinha muito contato e também fiquei feliz em alcançar grande parte dos meus objetivos quando iniciei o desafio, como a utilização de variáveis e usar um pouquinho as propriedades pra responsividade, mesmo que de forma bem simples. Você pode ver o resultado clicando no link da descrição. Obrigada!</p>
